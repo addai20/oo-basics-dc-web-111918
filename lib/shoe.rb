@@ -23,7 +23,8 @@ class Shoe
   end
   
   def cobble
-    
+    puts 
+    shoe.condition = "new"
   end
 
 end
