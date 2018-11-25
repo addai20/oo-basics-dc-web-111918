@@ -10,6 +10,10 @@ class Book
     @author = author
   end
   
+  def page_count=
+    
+  end
+  
   def turn_page
     
     puts "Flipping the page...wow, you read fast!"
