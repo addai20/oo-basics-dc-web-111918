@@ -4,9 +4,10 @@ class Book
   
   def initialize(title)
     @title = title
-    @author = author 
-    
-    
+  end
+  
+  def author=
+    @author = author
   end
   
   def turn_page
