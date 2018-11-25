@@ -2,7 +2,7 @@ class Book
   
   attr_reader(:title,:author,:page_count,:genre)
   
-  def title=
+  def title=(title)
     @title = title
   end
   
